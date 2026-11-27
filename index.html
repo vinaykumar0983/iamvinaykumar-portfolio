@@ -1,34 +1,30 @@
+
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic HTML Configuration -->
     <meta charset="UTF-8" />
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
 
+    <!-- Website Theme -->
+    <meta name="theme-color" content="#030817" />
+    <meta name="color-scheme" content="dark" />
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#030817" />
-
     <!-- Primary SEO Title -->
     <title>
-      Vinay Kumar | Full Stack Developer & Cloud Computing
+      Vinay Kumar | Full Stack & MERN Developer | AWS Cloud
     </title>
 
     <!-- SEO Meta Description -->
     <meta
       name="description"
-      content="Vinay Kumar is a Full Stack Developer specializing in MERN Stack, AWS and Cloud Computing. Explore web development projects, technical skills, cloud technologies and certifications."
-    />
-
-    <!-- SEO Keywords -->
-    <meta
-      name="keywords"
-      content="Vinay Kumar, Full Stack Developer, Cloud Computing, MERN Stack Developer, AWS Developer, Cloud Engineer, React Developer, Node.js Developer, MongoDB, Express.js"
+      content="Vinay Kumar is a Full Stack MERN Developer skilled in React.js, Node.js, Express.js, MongoDB and AWS Cloud Computing. Explore projects, technical skills and web development services."
     />
 
     <!-- Author -->
@@ -36,6 +32,7 @@
 
     <!-- Search Engine Indexing -->
     <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
 
     <!-- Canonical URL -->
     <link
@@ -51,11 +48,11 @@
     />
     <meta
       property="og:title"
-      content="Vinay Kumar | Full Stack Developer & Cloud Computing"
+      content="Vinay Kumar | Full Stack & MERN Developer"
     />
     <meta
       property="og:description"
-      content="Explore Vinay Kumar's portfolio featuring MERN Stack development, AWS, Cloud Computing, projects and technical skills."
+      content="Explore Vinay Kumar's portfolio featuring MERN Stack development, React.js, Node.js, MongoDB, AWS and Cloud Computing projects."
     />
     <meta
       property="og:image"
@@ -71,9 +68,13 @@
     />
     <meta
       property="og:image:alt"
-      content="Vinay Kumar - Full Stack Developer, MERN Stack, AWS and Cloud Computing"
+      content="Vinay Kumar - Full Stack Developer, MERN Stack and AWS Cloud Computing"
     />
-    <meta property="og:site_name" content="Vinay Kumar Portfolio" />
+    <meta
+      property="og:site_name"
+      content="Vinay Kumar Portfolio"
+    />
+    <meta property="og:locale" content="en_IN" />
 
     <!-- Twitter / X -->
     <meta
@@ -82,18 +83,49 @@
     />
     <meta
       name="twitter:title"
-      content="Vinay Kumar | Full Stack Developer & Cloud Computing"
+      content="Vinay Kumar | Full Stack & MERN Developer"
     />
     <meta
       name="twitter:description"
-      content="Explore my portfolio, MERN Stack projects, AWS skills and Cloud Computing experience."
+      content="Full Stack Developer specializing in MERN Stack, React.js, Node.js, MongoDB and AWS Cloud Computing."
     />
     <meta
       name="twitter:image"
       content="https://iamvinaykumar.com/og-image.png"
     />
+    <meta
+      name="twitter:image:alt"
+      content="Vinay Kumar Developer Portfolio"
+    />
 
-    <!-- Fonts Optimization -->
+    <!-- Person Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vinay Kumar",
+        "url": "https://iamvinaykumar.com/",
+        "image": "https://iamvinaykumar.com/profile.png",
+        "jobTitle": "Full Stack Developer",
+        "description": "Full Stack MERN Developer interested in AWS and Cloud Computing.",
+        "knowsAbout": [
+          "Full Stack Development",
+          "MERN Stack",
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "AWS",
+          "Cloud Computing"
+        ],
+        "sameAs": [
+          "https://github.com/vinaykumar0983",
+          "https://www.linkedin.com/in/vinay-kumar-cloud/"
+        ]
+      }
+    </script>
+
+    <!-- Google Fonts Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
@@ -105,12 +137,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
   </head>
 
   <body>
+    <!-- React Application -->
     <div id="root"></div>
 
-    <!-- React Application -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
